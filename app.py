@@ -9,6 +9,11 @@ Bootstrap(app)
 """
 Routes
 """
+@app.route('/', methods=['GET'])
+def indexer():
+    # Main page
+    return render_template('index.html')
+
 @app.route('/', methods=['GET', 'POST'])
 def index():
     if request.method == 'POST':
