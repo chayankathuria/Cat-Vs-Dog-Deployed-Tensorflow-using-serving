@@ -11,5 +11,4 @@ matplotlib>=1.4.3
 pandas>=0.19
 nltk>=3.4.5
 tensorflow==2.2.0
-json==2.6
 requests==2.23.0
