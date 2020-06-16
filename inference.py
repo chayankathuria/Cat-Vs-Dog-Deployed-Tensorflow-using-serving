@@ -24,4 +24,4 @@ def get_prediction(image_path):
     class_name = CLASSES[int(prediction > 0.5)]
     return class_name
 
-get_prediction('dog.jpg')
+#get_prediction('dog.jpg')
